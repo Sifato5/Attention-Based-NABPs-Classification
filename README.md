@@ -13,4 +13,4 @@ Multi-class.h5: Pre-trained model for predicting Non-NABPs/RBPs/DSBs/SSBs.<br>
 Python/3.12.7<br>
 TensorFlow/2.18.0<br>
 
-# N.B: Please use .fasta file format to predict desired sequences using our pre-trained models. Models will provide accurate class of input proteins with prediction confidence.
+# Please use the .fasta file format to input sequences for prediction with our pre-trained models. These models will accurately classify the proteins and provide confidence scores for each prediction.
