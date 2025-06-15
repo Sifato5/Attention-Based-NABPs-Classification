@@ -1,6 +1,6 @@
 # Attention-Based Deep Learning Architecture for Comprehensive Nucleic Acid-Binding Proteins Characterization
 
-In this study, we developed a novel hierarchical and multi-class deep learning approach designed to effectively classify subtypes of NABPs (non-NABPs, RBPs, DSBs, and SSBs) with high precision
+In this study, we developed a hierarchical and multi-class deep learning approach designed to effectively classify subtypes of NABPs (non-NABPs, RBPs, DSBs, and SSBs) with high precision.
 
 # Files in /models:
 
