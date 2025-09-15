@@ -4,7 +4,7 @@ In this study, we developed a hierarchical and multi-class deep learning approac
 
 # Files in /models:
 
-non-NABP_NABP.h5: Pre-trained model for predicting Non-NABPs/NABPs.<br>
+non-NABP_NABP.h5: Pre-trained model for predicting non-NABPs/NABPs.<br>
 DBP_RBP.h5: Pre-trained model for predicting DBPs/RBPs.<br>
 SSB_DSB.h5: Pre-trained model for predicting SSBs/DSBs.<br>
 Multi-class.h5: Pre-trained model for predicting Non-NABPs/RBPs/DSBs/SSBs.<br>
