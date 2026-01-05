@@ -1,16 +1,27 @@
-# Attention-Based Deep Learning Architecture for Comprehensive Nucleic Acid-Binding Proteins Characterization
+# AttentionNABP: Attention-Based Deep Learning Architecture for Nucleic Acid-Binding Proteins Characterization
 
-In this study, we developed a hierarchical and multi-class deep learning approach designed to effectively classify subtypes of NABPs (non-NABPs, RBPs, DSBs, and SSBs) with high precision.
+In this study, we developed a hierarchical and multi-class deep learning approach designed to effectively classify subtypes of NABPs with high precision.
 
+# Files in /datasets:
+
+/non-NABP_NABP: All test datasets of five independent run for non-NABP/NABP classification. <br>
+/DBP_RBP: All test datasets of five independent run for DBP/RBP classification. <br>
+/SSB_DSB: All test datasets of five independent run for SSB/DSB classification. <br>
+/Multi-class: All test datasets of five independent run for Multi-class classification. <br>
 # Files in /models:
 
-non-NABP_NABP.h5: Pre-trained model for predicting non-NABPs/NABPs.<br>
-DBP_RBP.h5: Pre-trained model for predicting DBPs/RBPs.<br>
-SSB_DSB.h5: Pre-trained model for predicting SSBs/DSBs.<br>
-Multi-class.h5: Pre-trained model for predicting non-NABPs/RBPs/DSBs/SSBs.<br>
+/non-NABP_NABP: All pre-trained models of five independent run for predicting non-NABPs/NABPs.<br>
+/DBP_RBP: All pre-trained models of five independent run for predicting DBPs/RBPs.<br>
+/SSB_DSB: All pre-trained models of five independent run for predicting SSBs/DSBs.<br>
+/Multi-class: All pre-trained models of five independent run for predicting non-NABPs/RBPs/DSBs/SSBs.<br>
 
 # Dependencies:
-Python/3.12.7<br>
-TensorFlow/2.18.0<br>
+python/3.9.18<br>
+tensorflow/2.18.0<br>
+numpy/1.26.4<br>
+biopython/1.85<br>
+scikit-learn/1.6.1<br>
+transformers/4.57.3<br>
+pytorch/2.5.1<br>
 
 # N.B.: Please use the .fasta file format to input sequences for prediction with our pre-trained models. These models will accurately classify the proteins and provide confidence score for each prediction.
