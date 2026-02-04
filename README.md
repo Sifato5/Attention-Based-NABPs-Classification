@@ -1,4 +1,4 @@
-# AttentionNABP: Attention-Based Deep Learning Architecture for Nucleic Acid-Binding Proteins Characterization
+# AttentionNABP: Attention-Based Deep Learning Framework for Nucleic Acid-Binding Proteins Classification and Identification
 
 In this study, we developed a hierarchical and multi-class deep learning approach designed to effectively classify subtypes of NABPs with high precision.
 
